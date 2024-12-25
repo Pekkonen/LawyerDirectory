@@ -1,0 +1,28 @@
+{
+    "name": "krable/lawyer-directory",
+    "type": "typo3-cms-extension",
+    "description": "lawyer directory",
+    "authors": [
+        {
+            "name": "ILYA SMIRNOFF",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Krable\\LawyerDirectory\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Krable\\LawyerDirectory\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "krable/lawyer-directory": "self.version",
+        "typo3-ter/lawyer-directory": "self.version"
+    }
+}
